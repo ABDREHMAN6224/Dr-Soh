@@ -5,9 +5,9 @@ export type LinkType = {
 }
 
 export type Project = {
-    title:String
-    image:String
-    description:String
+    title:string
+    image:string
+    description:string
 }
 
 export type Research = {
