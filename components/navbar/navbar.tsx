@@ -1,7 +1,6 @@
 "use client";
 import { navLinks } from "@/lib/constants/nav";
 import { LinkType } from "@/lib/types";
-import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { FaBars } from "react-icons/fa";
