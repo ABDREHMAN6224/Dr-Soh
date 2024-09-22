@@ -20,7 +20,7 @@ export default Projects
 const SingleProject = ({image,title,description}:Project) =>{
     return (
       <>
-      <div className="flex items-start justify-between w-full">
+      <div className="flex items-start flex-col md:flex-row gap-y-3 justify-between w-full">
         <div className="flex flex-col items-start gap-3">
           <h1 className='text-xl sm:text-2xl  mb-3 font-semibold text-gray-600'>{title}</h1>
           <p className='md:text-xl text-lg text-gray-500 max-w-xl'>
@@ -30,7 +30,7 @@ const SingleProject = ({image,title,description}:Project) =>{
           <Image width={300} height={300}
             src={image as string}
             alt={title as string}
-            className='w-56 h-56 rounded-sm shadow-sm object-cover'
+            className='w-full md:w-56 h-56  rounded-sm shadow-sm object-cover'
             />
 
       </div>

@@ -4,6 +4,7 @@ import { LinkType } from "@/lib/types";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import { FaBars } from "react-icons/fa";
 
 const Navbar = () => {
   const [showNavBar, setShowNavBar] = useState(false);
@@ -34,12 +35,7 @@ const Navbar = () => {
             onClick={() => setShowNavBar(!showNavBar)}
           >
             <span className="sr-only">Open main menu</span>
-            <Image
-              src="/assets/images/menu.svg"
-              alt="Menu"
-              width={24}
-              height={24}
-            />
+            <FaBars className="w-6 h-6" />
           </button>
           <div
             className={`left-0 right-0 bottom-0 translate-y-full z-30 bg-white md:w-auto  ${

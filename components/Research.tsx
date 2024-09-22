@@ -20,8 +20,8 @@ const SingleRessearch=({title,authors,impactFactor,year}:Research)=>{
     return (
       <div className="flex flex-col items-start gap-1">
         <h1 className="text-xl font-semibold text-gray-500">{title}</h1>
-        <div className="flex items-center gap-2 text-gray-400">
-          <h3 className=" text-sm font-semibold mr-2 uppercase text-gray-400">
+        <div className="flex items-center gap-x-2 text-gray-400 flex-wrap">
+          <h3 className=" text-sm font-medium mr-2 uppercase text-gray-400 underline underline-offset-2">
             Authors:
           </h3>
           {authors.map((a, i) => (
@@ -33,14 +33,14 @@ const SingleRessearch=({title,authors,impactFactor,year}:Research)=>{
         </div>
         <div className="flex items-center gap-2 text-gray-400">
           {impactFactor && (
-            <h3 className=" text-sm font-semibold mr-2 uppercase text-gray-400">
+            <h3 className=" text-sm font-medium mr-2 uppercase text-gray-400 underline underline-offset-2">
               Impact Factor
             </h3>
           )}
           {impactFactor && <p className="font-medium">{impactFactor}</p>}
         </div>
         <div className="flex items-center gap-2 text-gray-400">
-            <h3 className=" text-sm font-semibold mr-2 uppercase text-gray-400">
+            <h3 className=" text-sm font-medium mr-2 uppercase text-gray-400 underline underline-offset-2">
               Published In:
             </h3>
           <p className="font-medium">{year}</p>
