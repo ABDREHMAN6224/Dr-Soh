@@ -2,9 +2,8 @@ import { researchPublications } from '@/lib/constants/research'
 import { Research } from '@/lib/types'
 import React from 'react'
 
-type Props = {}
 
-function ResearchPage({}: Props) {
+function ResearchPage() {
   return (
     <div id='research' >
     <h1 className='text-3xl md:text-4xl xl:text-5xl mb-10 mx-auto text-center font-bold text-gray-800'>Research</h1>

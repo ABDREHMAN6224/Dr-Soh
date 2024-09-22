@@ -1,9 +1,8 @@
 import React from 'react'
 import { Button } from './ui/button'
 
-type Props = {}
 
-function Contact({}: Props) {
+function Contact() {
   return (
     <div className='flex flex-col items-center justify-center p-2 gap-4 shadow-md ' id='contact'>
         <div className="flex flex-col gap-3">

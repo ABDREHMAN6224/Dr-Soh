@@ -1,7 +1,6 @@
 import { coursesTaught } from '@/lib/constants/courses';
 import React from 'react'
 
-type Props = {}
 const colors: string[] = [
     "#DC143C", // Crimson
     "#40E0D0", // Turquoise
@@ -15,7 +14,7 @@ const colors: string[] = [
     "#FF00FF"  
   ];
 
-function Courses({}: Props) {
+function Courses() {
   return (
     <div id='teaching' className='mb-10'>
         <h1 className='text-3xl md:text-4xl xl:text-5xl mb-10 mx-auto text-center font-bold text-gray-800 mt-10'>Teaching</h1>

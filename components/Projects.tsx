@@ -3,9 +3,8 @@ import { Project } from '@/lib/types'
 import Image from 'next/image'
 import React from 'react'
 
-type Props = {}
 
-function Projects({}: Props) {
+function Projects() {
   return (
     <div id='projects'>
         <h1 className='text-3xl md:text-4xl xl:text-5xl mb-10 mx-auto text-center font-bold text-gray-800'>Projects</h1>

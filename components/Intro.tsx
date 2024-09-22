@@ -2,9 +2,8 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
-type Props = {}
 
-function Intro({}: Props) {
+function Intro() {
   return (
     <div className='w-full h-screen flex items-center justify-center space-x-4 gap-4 flex-col space-y-4 md:flex-row'>
         <Image src='/assets/images/sir.png' alt='Dr sohail' width={500} height={500} 
