@@ -31,14 +31,7 @@ const SingleRessearch=({title,authors,impactFactor,year}:Research)=>{
             </div>
           ))}
         </div>
-        <div className="flex items-center gap-2 text-gray-400">
-          {impactFactor && (
-            <h3 className=" text-sm font-medium mr-2 uppercase text-gray-400 underline underline-offset-2">
-              Impact Factor
-            </h3>
-          )}
-          {impactFactor && <p className="font-medium">{impactFactor}</p>}
-        </div>
+        
         <div className="flex items-center gap-2 text-gray-400">
             <h3 className=" text-sm font-medium mr-2 uppercase text-gray-400 underline underline-offset-2">
               Published In:

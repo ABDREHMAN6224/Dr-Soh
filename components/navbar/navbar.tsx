@@ -22,7 +22,7 @@ const Navbar = () => {
             <div className="w-6 h-6 rounded-full bg-yellow-500"></div>
             <div className="flex space-x-3 items-end">
             <h3 className="text-lg font-bold text-gray-800">Sohail Iqbal</h3>
-            <p className="text-xs text-gray-500 ">Associate Professor</p>
+            <p className="text-xs text-gray-500 pb-1">Associate Professor</p>
             </div>
           </Link>
           <button
