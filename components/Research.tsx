@@ -1,5 +1,6 @@
 import { researchPublications } from '@/lib/constants/research'
 import { Research } from '@/lib/types'
+import Link from 'next/link'
 import React from 'react'
 
 
@@ -16,9 +17,9 @@ function ResearchPage() {
 
 export default ResearchPage
 
-const SingleRessearch=({title,authors,impactFactor,year}:Research)=>{
+const SingleRessearch=({title,authors,impactFactor,year,link="#"}:Research)=>{
     return (
-      <div className="flex flex-col items-start gap-1">
+      <Link href={link} target='_blank' className="flex flex-col items-start gap-1">
         <h1 className="text-xl font-semibold text-gray-500">{title}</h1>
         <div className="flex items-center gap-x-2 text-gray-400 flex-wrap">
           <h3 className=" text-sm font-medium mr-2 uppercase text-gray-400 underline underline-offset-2">
@@ -38,6 +39,6 @@ const SingleRessearch=({title,authors,impactFactor,year}:Research)=>{
             </h3>
           <p className="font-medium">{year}</p>
         </div>
-      </div>
+      </Link>
     );
 }

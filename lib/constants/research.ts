@@ -1,6 +1,19 @@
 import { Research } from "../types";
 
 export const researchPublications:Research[] = [
+  {
+    type:"International Journal Article",
+    title:"Generative AI: Reshaping the Digital Economy",
+    authors:["Syed Iftikhar Shah", "Sohail Iqbal"],
+    year:"Digital Cooperation Organization 2024",
+    link:"https://archive.org/details/gen-ai-dco"
+  },
+  {
+    type:"International Journal Article",
+    title:"Towards efficient human–machine interaction for home energy management with seasonal scheduling using deep fuzzy neural optimizer",
+    authors:["Sakeena Javaid, Nadeem Javaid", "Musaed Alhussein", "Khursheed Aurangzeb", "Sohail Iqbal", "Muhammad Shahid Anwar"],
+    year:2023,
+  },
     {
       type: "International Journal Article",
       title: "Improving Quality of Experience Using Fuzzy Controller for Smart Homes",

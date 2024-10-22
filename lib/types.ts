@@ -19,8 +19,9 @@ export type Research = {
     volume?: number; 
     number?: number; 
     pages?: string|number;
-    year: number;
+    year: number|string;
     impactFactor?: number; 
+    link?: string;
     
   };
 
