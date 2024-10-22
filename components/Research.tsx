@@ -17,7 +17,7 @@ function ResearchPage() {
 
 export default ResearchPage
 
-const SingleRessearch=({title,authors,impactFactor,year,link="#"}:Research)=>{
+const SingleRessearch=({title,authors,year,link="#"}:Research)=>{
     return (
       <Link href={link} target='_blank' className="flex flex-col items-start gap-1">
         <h1 className="text-xl font-semibold text-gray-500">{title}</h1>
